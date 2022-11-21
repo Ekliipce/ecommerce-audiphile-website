@@ -1,0 +1,81 @@
+@import url('https://css.gg/format-justify.css');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    /* min-width: 950px; */
+
+    background-color: black;
+    color: #ffffff;
+    height: 100px;
+    border-bottom: solid #2e2e2e 0.5px;
+}nav li, nav ul, nav a, li{
+    all: inherit;
+    padding: 0;
+    border: none;
+    height: 40px;
+}#nav-list{
+    display: none;
+}#icon-justify{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#navbar-link-container{
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  max-width: 429px;
+  justify-content: space-between;
+}.nav-link-container a{
+  margin: 0;
+}.nav-link-container li{
+  height: 25px;
+  margin: 0 17px;
+}.nav-link-container li:last-child{
+  margin-right: 0;
+}
+
+.dropdown-button{
+  cursor: pointer;
+}.dropdown {
+  display: block;
+  width: 16px;
+  height: 25px;
+}.dropdown-content{
+  display: none;
+  top: 100px;
+  background-color: #f9f9f9;
+  width: 100%;
+  color: black
+}.dropdown-content a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}.dropdown-content a:hover {
+  background-color: #f1f1f1
+}.dropdown:hover .dropdown-content{
+  display: block;
+}.hidden{
+  display: none;
+}.block{
+  display: block;
+}.dropdown-content #overview{
+  margin-top: 160px;
+}
+
+@media (max-width: 790px) {
+    #nav-list{
+      display: block;
+    }
+    #navbar-link-container{
+      display: none;
+    }
+  }
+

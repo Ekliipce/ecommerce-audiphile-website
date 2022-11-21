@@ -1,0 +1,25 @@
+.header-cat{
+    color: white;
+    background-color: black;
+    height: 239px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}.header-cat h1{
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.43px;
+    font-weight: 700;
+}
+
+@media (max-width: 450px){
+    .header-cat{
+        height: 102px;
+    }.header-cat h1{
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: 2px;
+    }
+}

@@ -1,0 +1,183 @@
+#intrig{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:168px;
+    margin-bottom: 175px;
+}
+
+.intrig-container{
+    width: 77%;
+    max-width: 1110px; 
+    
+    margin-bottom: 48px;
+    border-radius: 10px;    
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;  
+}
+
+#intrigA-container{
+    height: 560px;
+    background-color: #D87D4A;
+    background-image: url('../../assets/home/desktop/image-speaker-zx9.png');
+    background-position: 100px 110px;
+    background-size: 380px;
+
+   
+    justify-content: flex-end;
+}#intrigA-info{
+    display: flex;
+    flex-direction: column;
+    width: 349px;
+    height: 303px;
+}#intrigA-info h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 56px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}#intrigA-info p{
+    opacity: 0.75; 
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+#intrigB-container{
+    height: 320px;
+    background-color: #979797;
+    background-image: url('../../assets/home/desktop/image-speaker-zx7.jpg');
+    background-position: right;
+    background-size: cover;
+}#intrigB-info{
+    width: 204px;
+    height: 118px;
+    margin-left: 95px;
+}#intrigB-info h2, #intrigC-info h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+#intrigC-container{
+    display: flex;
+    justify-content: space-between;
+}
+#intrigC-container > div{
+    width: 48%;
+    max-width: 540px;
+    height: 320px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}#intrigC-img{
+    background-image: url('../../assets/home/desktop/image-earphones-yx1.jpg');
+    background-size: cover;
+    background-position: center;
+}#intrigC-info{
+    margin-left: 98px;
+}
+
+@media (max-width: 1110px){
+    #intrig{
+        margin-bottom: 76px;
+    }
+    .intrig-container{
+        width: 89%;
+        max-width: 689px;
+        margin-bottom: 32px; 
+    }
+    #intrigA-container{
+        
+        height: 720px;
+        background-image: url('../../assets/home/tablet/image-speaker-zx9.png');
+        background-position: 50% 50px;
+        background-size: 190px;
+
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }#intrigA-info{
+        max-width: 349px;
+        height: 303px;
+        justify-content: flex-end; 
+        margin-bottom: 60px;
+    }#intrigA-info button{
+        margin: 0 auto 0 auto;
+    }#intrigA-info h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        font-size: 56px;
+        letter-spacing: 2px;
+        margin-bottom: 24px;
+    }
+
+    #intrigB-container{
+        background-image: url("../../assets/home/tablet/image-speaker-zx7.jpg");
+        background-position: left;
+    }
+
+    #intrigC-container > div{
+        width: 47%;
+    }#intrigC-img{
+        /* margin-right: 11px; */
+        background-image: url('../../assets/home/tablet/image-earphones-yx1.jpg');
+    }#intrigC-info{
+        margin-left: 41px;
+    }
+}
+
+@media (max-width: 700px){
+    #intrigC-img{
+        background-image: url('../../assets/home/tablet/image-earphones-yx1.jpg');
+    }#intrigC-info{
+        margin-left: 41px;
+    }
+}
+
+@media (max-width: 560px){
+    #intrigB-container{
+        background-attachment: local;
+        background-position: 5% 0;
+    }#intrig{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 450px){
+    #intrigA-container{
+        min-width: 327px;
+        height: 600px;
+    }#intrigA-info{
+        width: 349px;
+        height: 303px;
+        justify-content: flex-end; 
+        margin-bottom: 60px;
+    }
+    
+    #intrigA-info h2{
+        font-size: 36px;
+        letter-spacing: 1.29px;
+        margin-bottom: 24px;
+    }
+
+    #intrigC-container > div{
+        height: 200px;
+    }#intrigC-img{
+        margin-right: 0px;
+        background-image: url('../../assets/home/mobile/image-earphones-yx1.jpg');
+    }#intrigC-info{
+        margin-left: 24px;
+    }
+}
