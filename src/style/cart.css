@@ -8,7 +8,6 @@
 #header-modal, .modal-total{
     display: flex;
     justify-content: space-between;
-    width: 313px;
     height: 25px;
     margin-bottom: 32px;
 }#header-cart, .modal-total-price{

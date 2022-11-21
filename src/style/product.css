@@ -223,6 +223,9 @@
     }.product-info p, 
     .product-info-buying p{
         margin-bottom: 24px;
+        max-width: 370px;
+    }.product-info-buying{
+        max-width: 370px;
     }
 
 
