@@ -172,7 +172,11 @@
         margin-bottom: 24px;
     }
 
+    #intrigC-container{
+        flex-direction: column;
+    }
     #intrigC-container > div{
+        width: 100%;
         height: 200px;
     }#intrigC-img{
         margin-right: 0px;
